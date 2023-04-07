@@ -4,7 +4,7 @@ import {expect, jest, test} from '@jest/globals';
 
 import { calculateUKIncomeAfterTax } from './main';
 
-
+//named tests, actual and expected 
 test("Test for gross income highest rate £500000", ()=> {
     const actual = calculateUKIncomeAfterTax(500000)
     const expected = "£293825"
@@ -49,3 +49,9 @@ test("Test for zero income", ()=> {
     const actual = calculateUKIncomeAfterTax(0)
     const expected = "£0"
     expect(actual).toBe(expected) } )
+
+test("numerous tests", ()=> {
+//numerous tests can be written independently wihtin a test in jest as below 
+expect(calculateUKIncomeAfterTax(0)).toBe("£0");
+expect(calculateUKIncomeAfterTax(5000)).toBe("£5000");
+})
