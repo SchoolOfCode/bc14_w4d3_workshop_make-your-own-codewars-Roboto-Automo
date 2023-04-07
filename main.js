@@ -14,6 +14,8 @@ If the gross total was 60000, the function should return "£48568", because the 
 
 Also, if the gross income includes decimal numbers to represent pence, then the net income should be rounded UP to the nearest pound. For example, a net income of "£30646.23" should be returned as "£30647".
 
+For simplicity's sake, we won't include national insurance contributions.
+
 */
 
 //👉 Write the function your CodeWarriors will start with below here:
