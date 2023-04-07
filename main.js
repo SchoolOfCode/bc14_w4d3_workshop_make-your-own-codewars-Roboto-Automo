@@ -12,6 +12,8 @@ As an example, if the gross total was £11000, the function should return £1100
 
 If the gross total was £60000, the function should return £48568, because the tax to pay between £0 and £12570 is £0, the tax to pay between £12571 and £50,270 is £7540 and the tax to pay between £50,271 and £60000 is £3892.
 
+Also, if the gross income includes decimal numbers to represent pence, then the net income should be rounded UP to the nearest pound. For example, a net income of £30646.23 should be returned as £30647.
+
 */
 
 //👉 Write the function your CodeWarriors will start with below here:
