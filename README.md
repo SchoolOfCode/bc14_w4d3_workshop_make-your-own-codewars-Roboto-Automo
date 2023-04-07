@@ -5,10 +5,10 @@ April has sprung and it's time to do your taxes UK dwellers!  We can't be bother
 
 Using the tax bandings below, write a function that takes in a number representing gross taxable income as an argument and returns the net income, after deducting tax owed, as a whole number, in a string, following the £ symbol.
 
-Personal Allowance	Up to £12,570	you pay 0% tax 
-Basic rate	£12,571 to £50,270	    you pay 20% tax
-Higher rate	£50,271 to £125,140	    you pay 40% tax
-Additional rate	over £125,140	    you pay 45% tax
+* Personal Allowance	Up to £12,570	you pay 0% tax 
+* Basic rate	£12,571 to £50,270	    you pay 20% tax
+* Higher rate	£50,271 to £125,140	    you pay 40% tax
+* Additional rate	over £125,140	    you pay 45% tax
 
 As an example, if the gross total of 11000 is passed in as an argument, the function should return "£11000" since there is no tax to be paid on this amount.
 
