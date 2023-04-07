@@ -12,3 +12,11 @@ const expected = "£48568"
 expect(actual).toBe(expected)
 
 } )
+
+test("Test for gross income decimal £60000.2485", ()=> {
+
+    const actual = calculateUKIncomeAfterTax(60000.2485)
+    const expected = "£48569"
+    expect(actual).toBe(expected)
+    
+    } )

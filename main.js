@@ -38,3 +38,5 @@ export function calculateUKIncomeAfterTax(taxableIncome) {
   const incomeAfterTax = `£${Math.ceil(taxableIncome - tax)}`;
   return incomeAfterTax;
 }
+
+console.log(calculateUKIncomeAfterTax(60000.23498))
